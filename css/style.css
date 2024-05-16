@@ -1,0 +1,38 @@
+/* image change */
+.box-hw {
+    height: 300px !important;
+    width: 300px !important;
+}
+
+/* quotes change */
+.quote-container {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* box rotate */
+.box {
+    width: 100px;
+    height: 100px;
+    animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
